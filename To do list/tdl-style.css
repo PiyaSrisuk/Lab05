@@ -1,0 +1,25 @@
+.container {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    color: white;
+}
+
+.form-control {
+    background-color: papayawhip;
+}
+
+.list-group-item {
+    margin-bottom: 5px;
+    
+}
+
+.list-group {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+button {
+    margin-left: 10px;
+}

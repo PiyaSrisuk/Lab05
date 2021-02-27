@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day/Night mode</title>
+    <script src="script.js"></script>
+    <style>
+        body {background-color: white;color: black;}
+        #t3 {color: red;}
+        button {background-color: transparent;color: black;}
+    </style>
+</head>
+<body>
+    <h1>GOOD <span id="t1">MORNING</span></h1>
+    <h2>This is <span id="t2">day</span> time!</h2>
+    <p>This <span id="t3">word</span> will be red in day and blue in night.</p>
+    <p>Click the button below to activate the <span id="t4">night</span> mode.</p>
+    <button type="button" id='button' onclick="changeMode()">Activate the <span id="t5">night</span> mode</button>
+</body>
+</html>
